@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Styles | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Skip Link for Keyboard Users -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Header / Navigation -->
+  <header role="banner">
+    <nav role="navigation" aria-label="Main Navigation">
+      <h1>Alex Styles</h1>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main">
+    <!-- About Me Section -->
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>
+        Hi, I’m Alex Styles. I specialize in creative design and development.
+        This section highlights my professional journey, skills, and values.
+      </p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" aria-labelledby="portfolio-heading">
+      <h2 id="portfolio-heading">Portfolio</h2>
+      <div class="portfolio-grid">
+        <div class="project">
+          <a href="project1.html">
+            <img src="placeholder1.jpg" alt="Screenshot of Project 1">
+            <h3>Project Title 1</h3>
+          </a>
+        </div>
+        <div class="project">
+          <a href="project2.html">
+            <img src="placeholder2.jpg" alt="Screenshot of Project 2">
+            <h3>Project Title 2</h3>
+          </a>
+        </div>
+        <div class="project">
+          <a href="project3.html">
+            <img src="placeholder3.jpg" alt="Screenshot of Project 3">
+            <h3>Project Title 3</h3>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <form action="#" method="post" aria-label="Contact Form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required aria-required="true">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required aria-required="true">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <p>&copy; 2025 Alex Styles. All rights reserved.</p>
+  </footer>
+</body>
+</html>
